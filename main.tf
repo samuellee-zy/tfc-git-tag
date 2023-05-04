@@ -40,7 +40,7 @@ resource "aws_db_instance" "default" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-test-bucket"
+  bucket = "bucket-s3-demo-example-sam-tfc-org-tags-test-04052023"
 
   tags = {
     Name        = "My bucket"
